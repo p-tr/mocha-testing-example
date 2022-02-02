@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon .",
-    "test": "mocha -r module-alias/register"
+    "test": "mocha -r module-alias/register --file test/bootstrap.js"
   },
   "keywords": [],
   "author": "",
